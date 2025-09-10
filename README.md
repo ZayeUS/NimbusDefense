@@ -196,3 +196,4 @@ npx nimbus-defense-test --mode async         # Non-blocking
 - Enterprise compliance features (SOC2/HIPAA/GDPR)
 - Logging dashboard for monitoring attacks
 
+# Templated
