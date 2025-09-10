@@ -1,0 +1,37 @@
+{
+  "name": "nimbus-defense",
+  "version": "5.0.0",
+  "description": "NimbusDefense — The AI Firewall SDK. Detect and block prompt injection attacks in LLM apps with regex + LLM validation, smart caching, and batch processing.",
+  "main": "secureLLM.js",
+  "type": "module",
+  "bin": {
+    "nimbus-defense-test": "./ai-shield-test.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "red-team": "node ai-shield-test.js",
+    "red-team:verbose": "node ai-shield-test.js --verbose",
+    "red-team:batch": "node ai-shield-test.js --batch"
+  },
+  "keywords": [
+    "nimbus-defense",
+    "ai",
+    "security",
+    "firewall",
+    "llm",
+    "prompt injection",
+    "jailbreak",
+    "ai safety",
+    "prompt security",
+    "llm security"
+  ],
+  "author": "Zaye_OG",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "openai": "^5.20.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
